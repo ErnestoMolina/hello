@@ -24,7 +24,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println("Ocurrio un error:", err)
-		retunr
+		return
 	}
 
 	fmt.Println(message)
